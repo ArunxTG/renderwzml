@@ -3,7 +3,7 @@ from requests import get as rget
 from os import environ
 from logging import error as logerror
 
-BASE_URL = environ.get('BASE_URL_HK', "https://renderwzml-2cit.onrender.com")
+BASE_URL = environ.get('BASE_URL_HK', "https://persistent-antonina-hariharanx-c2e213b0.koyeb.app/")
 try:
     if len(BASE_URL) == 0:
         raise TypeError
